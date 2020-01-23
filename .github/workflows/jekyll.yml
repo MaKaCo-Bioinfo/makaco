@@ -1,6 +1,6 @@
 name: Jekyll site CI
 
-on: [push]; [commit]
+on: [push]
 
 jobs:
   build:
