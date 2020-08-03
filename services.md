@@ -11,7 +11,7 @@ output:
 To contact us for information about an analysis, fill out the form bellow.
 
 <div rows=3>
-<form action="https://formspree.io/xqkpnbaw" id="contactform" method="POST">
+<form name="makaco_contactform" method="POST" data-netlify="true">
 
 <label >
     Your name: </label>  <input type="text" name="name" placeholder="Your name"/>
