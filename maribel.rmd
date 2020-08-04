@@ -62,7 +62,7 @@ Currently, I am working on the annotation and assembly of the transcriptome of *
 | Spanish  | Fluent | Fluent | Fluent | Fluent | Yes |
 </div> 
 
-<footer style="display:block; position: fixed; bottom: 0">
+<footer>
 &nbsp;
 <hr />
 <!-- <p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p> -->
