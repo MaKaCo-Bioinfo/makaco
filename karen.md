@@ -1,6 +1,8 @@
 ---
 title: "Karen"
-output: html_document
+output: 
+  html_document:
+    css: figures.css
 ---
 
 <script src="https://kit.fontawesome.com/0af1a424a5.js" crossorigin="anonymous"></script>
@@ -45,7 +47,7 @@ I also developed a R package for selection of reference genes from transcriptomi
 </div>
 
 
-<footer>
+<footer style="display:block; position: fixed; bottom: 0">
 &nbsp;
 <hr />
 
@@ -63,30 +65,40 @@ I also developed a R package for selection of reference genes from transcriptomi
 
 <img src="images/karen.png" align="right">
 
-  - MS Office
-
   - R and Bioconductor - Institut National de la Recherche Agronomique (France - 2017)
       - Transcriptomic analysis
+          - Read quality and filtering
+          - Read alignment and _de novo_ assembly
           - Obtaining read count files from aligment files
+          - _De novo_ annotation
           - Differential expression analysis
           - GO and KEGG enrichment analysis
           - Gene co-expression analysis
-  
-  - Markdown
 
   - Python - Compute Quebec (Canada - 2017)
 
   - Unix - Compute Quebec (Canada - 2017)
+  
+  - MS Office
 
+  - Markdown
+  
+  - HTML
+  
+  - CSS
+  
+  - SQL
 
+<div style="display:inline; float: left; width: 60%; padding-left: 20px">
 | Language | Read | Write | Speak | Understand | Native |
 |:----|:---:|:---:|:---:|:---:|:---:|
 | English | Fluent | Advanced | Fluent | Fluent | |
 | French | Fluent | Intermediary | Advanced | Fluent | |
 | Portuguese | Fluent | Fluent | Fluent | Fluent | Yes |
 | Spanish  | Fluent | Yes | Advanced | Fluent | |
+</div>
 
-<footer>
+<footer style="display:block; position: fixed; bottom: 0">
 &nbsp;
 <hr />
 
@@ -122,9 +134,9 @@ Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effe
 
 #### *2013*
 
-**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; C.A. Rojas. 2013. _Gluconacetobacter diazotrophicus_ enhances growth initial stages of _Ilex paraguariensis_ development. II ConferÃªncia Iberoamericana de Interaçoes Benéficas Microorganismos-Planta-Ambiente (IBEMPA), p. 450-451 (Extended abstract).
+**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; C.A. Rojas. 2013. _Gluconacetobacter diazotrophicus_ enhances growth initial stages of _Ilex paraguariensis_ development. II Conferência Iberoamericana de Interaçoes Benéficas Microorganismos-Planta-Ambiente (IBEMPA), p. 450-451 (Extended abstract).
 
-<footer>
+<footer style="display:block; position: fixed; bottom: 0">
 &nbsp;
 <hr />
 
@@ -157,7 +169,7 @@ Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effe
 
 **dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluation of the response of Yerba-Mate to the inoculation with potentially beneficial microorganisms. II Research Initiation Meeting - Unila, Foz do Iguaçu, Brazil.
 
-<footer>
+<footer style="display:block; position: fixed; bottom: 0">
 &nbsp;
 <hr />
 
@@ -181,7 +193,7 @@ Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effe
 
 **dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Transcriptomics and metabolomics of Arabidopsis expressing effectors from the poplar rust. Réunion conjointe Centre SÉVE-SPPQ, Bromont, Canada.
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. (2019). Effectors from poplar rust modulate Arabidopsis transcriptome. IS-MPMI 2019, Glasgow, United Kingdom.
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Effectors from poplar rust modulate Arabidopsis transcriptome. IS-MPMI 2019, Glasgow, United Kingdom.
 
 **dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. Plant Canada 2019, Guelph, Canada.
 
@@ -231,7 +243,7 @@ Rojas. 2014. Analysis of the endophytic interaction of beneficial microorganisms
 
 <span style="font-size: 2em"> <p  align="center"> [<i class="fab fa-twitter"></i>](http://twitter.com/KarenCristineG1) [<i class="fab fa-linkedin-in"></i>](https://www.linkedin.com/in/karen-cristine-gon%C3%A7alves-dos-santos-05847a113/) [<i class="fab fa-github"></i>](http://github.com/KarenGoncalves) </p> </span>
 
-<footer>
+<footer style="display:block; position: fixed; bottom: 0">
 &nbsp;
 <hr />
 

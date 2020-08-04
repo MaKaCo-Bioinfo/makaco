@@ -306,23 +306,32 @@ display: block;
    text-align: center;
 }
 
+input[type="submit"]:hover {
+background-color: #33B8FF;
+color: white;
+
+}
 </style>
 <script src="https://kit.fontawesome.com/0af1a424a5.js"></script>
 <p>To contact us for information about an analysis, fill out the form bellow.</p>
 <div rows="3">
 <form name="makaco_contactform" method="POST" data-netlify="true">
-<p><label > Your name: </label> <input type="text" name="name" required/></p>
-<p><label> Your e-mail: </label> <input type="email" name="_replyto" required/></p>
+<p><label > Your name: </label><br />
+<input type="text" name="name" required/></p>
+<p><label> Your e-mail: </label><br />
+<input type="email" name="_replyto" required/></p>
 <p><input type="hidden" name="_subject" value="MaKaCo contact" /></p>
 <p><label> Your message: </label></p>
 <textarea name="message" style="padding: 5em; border-radius: 50px;" required></textarea>
 <p><input type="hidden" name="_gotcha" /></p>
-<p><input type="submit" value="Send message" required/></p>
+<center>
+<input type="submit" value="Send message" required/>
+</center>
 </form>
 </div>
 <p><br></p>
 <p><br></p>
-<footer>
+<footer style="display:block; position: fixed; bottom: 0; width: 50%">
  
 <hr />
 <!-- Add icon library -->
