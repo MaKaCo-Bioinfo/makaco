@@ -10,7 +10,7 @@ navbar:
       href: services.html
 output: 
     html_document:
+      theme: cerulean
       include:
         after-body: footer.html
-      theme: cerulean
-      css: figures.css
+        css: figures.css

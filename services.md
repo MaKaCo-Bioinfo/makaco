@@ -2,7 +2,6 @@
 title: '<span style="display:none">Services</span>'
 output: 
   html_document:
-    theme: cerulean
     css: figures.css
 ---
 <style type="text/css">

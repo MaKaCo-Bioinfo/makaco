@@ -11,7 +11,7 @@ output:
 <style>
 
 .main-container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -52,29 +52,39 @@ display: block;
    text-align: center;
 }
 
-/* Header/logo Title */
 .header {
-margin-left: auto; 
-margin-right: auto; 
-display: block; 
-padding-top: 0px;
-padding-bottom: 40px;
-font-size:3em; 
+  float: left;
+  width: 15%;
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block; 
+  font-size:3em; 
   text-align: center;
+}
+
+.body {
+  float: left;
+  width: 70%;
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block; 
+  text-align: center;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 1000px) {
+  .header, .body {
+    width: 100%;
+    height: auto;
+  }
 }
 </style>
 
 <div class="header">
-  <figure>
-    <img style="width:15%;" src="images/logo.png" alt="Trulli">
-    <figcaption>
-      <center>
-        Our goal is to analyze your data **_for_** you, **_with_** you
-      </center>
-    </figcaption>
-  </figure>
+ ![We analyze your data **_for_** you, **_with_** you](images/logo.png) 
 </div>
 
+<div class="body">
 <div style="display: block; padding-top: 40px; font-size:2em;"> 
 **What we do**
 </div>
@@ -176,3 +186,4 @@ Hierarchical clustering
 &nbsp;
 
 </footer>
+</div>

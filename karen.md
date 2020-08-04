@@ -1,6 +1,5 @@
 ---
 title: "Karen"
-
 output: html_document
 ---
 
