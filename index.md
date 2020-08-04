@@ -78,10 +78,14 @@ display: block;
     height: auto;
   }
 }
+
+.navbar .navbar-default .navbar-fixed-top .navbar-right .navbar-collapse{
+background-color: red
+}
 </style>
 
 <div class="header">
- ![We analyze your data **_for_** you, **_with_** you](images/logo.png) 
+ ![Analyzing your data <span style="color:#49a5fc">**for**</span> you, <span style="color:#49a5fc">**with**</span> you](images/logo.png) 
 </div>
 
 <div class="body">
