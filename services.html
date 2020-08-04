@@ -280,7 +280,7 @@ $(document).ready(function () {
   <a href="about_us.html">About us</a>
 </li>
 <li>
-  <a href="services.html">Services</a>
+  <a href="services.html">Contact us</a>
 </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -291,29 +291,51 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Services</h1>
+<h1 class="title toc-ignore"><span style="display:none">Services</span></h1>
 
 </div>
 
 
+<style type="text/css">
+footer {
+   bottom: 0;
+   width: 50%;
+   position: fixed;
+   background-color: white;
+display: block;
+   text-align: center;
+}
+
+</style>
 <script src="https://kit.fontawesome.com/0af1a424a5.js"></script>
 <p>To contact us for information about an analysis, fill out the form bellow.</p>
 <div rows="3">
 <form name="makaco_contactform" method="POST" data-netlify="true">
-<p><label > Your name: </label> <input type="text" name="name" placeholder="Your name"/></p>
-<p><label> Your e-mail: </label> <input type="email" name="_replyto" placeholder="Your email"/></p>
+<p><label > Your name: </label> <input type="text" name="name" required/></p>
+<p><label> Your e-mail: </label> <input type="email" name="_replyto" required/></p>
 <p><input type="hidden" name="_subject" value="MaKaCo contact" /></p>
 <p><label> Your message: </label></p>
-<textarea name="message" placeholder="Your message" style="padding: 5em; border-radius: 50px;">
-</textarea>
+<textarea name="message" style="padding: 5em; border-radius: 50px;" required></textarea>
 <p><input type="hidden" name="_gotcha" /></p>
-<p><input type="submit" value="Send message"/></p>
+<p><input type="submit" value="Send message" required/></p>
 </form>
 </div>
 <p><br></p>
 <p><br></p>
-<p>You can also connect with us on:</p>
-<p><span style="font-size: 2em"><a href="https://github.com/makacom"><i class="fab fa-github"></i></a> <a href=""><i class="fab fa-twitter"></i></a> <a href=""><i class="fab fa-linkedin-in"></i></a> </span></p>
+<footer>
+ 
+<hr />
+<!-- Add icon library -->
+<script src="https://kit.fontawesome.com/0af1a424a5.js" crossorigin="anonymous"></script>
+<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
+<p style="text-align: center;">
+Get in touch with MaKaCo
+</p>
+<p style="text-align: center;font-size: 2em">
+<a href="https://github.com/makacom"><i class="fab fa-github"></i></a> <a href=""><i class="fab fa-twitter"></i></a> <a href=""><i class="fab fa-linkedin-in"></i></a>
+</p>
+<p> </p>
+</footer>
 
 
 

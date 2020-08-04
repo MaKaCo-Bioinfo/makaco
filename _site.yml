@@ -6,7 +6,7 @@ navbar:
   right:
     - text: "About us"
       href: about_us.html
-    - text: "Services"
+    - text: "Contact us"
       href: services.html
 output: 
     html_document:
