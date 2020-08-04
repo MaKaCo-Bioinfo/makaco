@@ -79,9 +79,6 @@ display: block;
   }
 }
 
-.navbar .navbar-default .navbar-fixed-top .navbar-right .navbar-collapse{
-background-color: red
-}
 </style>
 
 <div class="header">
