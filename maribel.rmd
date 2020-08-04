@@ -73,6 +73,9 @@ Currently, I am working on the annotation and assembly of the transcriptome of *
 
 ### **Papers**
 
+#### *2021*
+
+**Diaz-Garza, A.M.**, Fierro-Riviera, J.I., Pacheco, A., Schüßler, A., Gradilla-Hernández, M.S. & Senés-Guerrero, C. Temporal dynamics of rhizobacteria found in Pequin pepper, soybean and orange trees growing in a semi-arid ecosystem. _Frontiers in Sustainable Food Systems_. Submited. 
 <footer>
 &nbsp;
 <hr />
