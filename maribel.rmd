@@ -41,13 +41,18 @@ Currently, I am working on the annotation and assembly of the transcriptome of *
 
 <img src="images/maribel.png" align="right">
 
+  
   - MS Office
 
   - R and Bioconductor 
 
+  - Matlab
+  
   - QIIME 2
 
-  - Unix
+  - Unix - Compute Quebec (Canada - 2020)
+  
+  - Python - Compute Quebec (Canada - 2020)
 
 
 | Language | Read | Write | Speak | Understand | Native |
@@ -103,6 +108,16 @@ Currently, I am working on the annotation and assembly of the transcriptome of *
 </footer>
 
 ### **Poster presentations**
+
+#### *2020*
+
+**Diaz-Garza, A.M.** & Desgagné-Penix, I. 2020. Characterization of vanillin synthase (VAN) in _Phaeodactylum tricornutum_. Scientific Poster Contest - UQTR, Trois-Rivières, Canada.
+
+#### *2018*
+
+**Diaz-Garza, A.M.**, Fonseca-Fonseca, W., Isauro-Pérez, D.E. & López-Sánchez A. 2018. Aislamiento, caracterización y propuesta de control del oomiceto _Phytophthora capsici_ en chile. Expoingenierias December 2018 - ITESM, Guadalajara, Mexico.
+
+Del Toro-Barbosa, M., **Diaz-Garza, A.M.**, Diaz-Vazquéz, D., López-Sánchez A. & Rendón-Flores, R.M. 2018. Creación de un alimento o bioproducto: Electrohol. Expoingenierias May 2018 - ITESM, Guadalajara, Mexico.
 
 <footer>
 &nbsp;
