@@ -7,23 +7,29 @@ output:
 
 <script src="https://kit.fontawesome.com/0af1a424a5.js" crossorigin="anonymous"></script>
 
-<style type="text/css">
-footer {
-   bottom: 0;
-   width: 100%;
-   padding: 0px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-   text-align: center;
-     max-width: 1200px;
-
-}
+<style>
 
 .main-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer {
+left: 50;
+width: 1000px;
+background-color: white;
+display: block;
+text-align: center;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 700px) {
+  .main-container {
+    width: 100%;
+    height: auto;
+  }
 }
 
 </style>

@@ -13,6 +13,7 @@
 
 <title>Maribel</title>
 
+<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -295,24 +296,43 @@ $(document).ready(function () {
 </div>
 
 
-<style type="text/css">
-footer {
-   bottom: 0;
-   width: 100%;
-   background-color: white;
-display: block;
-   text-align: center;
+<script src="https://kit.fontawesome.com/0af1a424a5.js" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<style>
+
+.main-container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+footer {
+left: 50;
+width: 1000px;
+background-color: white;
+display: block;
+text-align: center;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 700px) {
+  .main-container {
+    width: 100%;
+    height: auto;
+  }
+}
+
 </style>
 <script src="https://kit.fontawesome.com/0af1a424a5.js" crossorigin="anonymous"></script>
 <div id="section" class="section level1 tabset tabset-fade">
-<h1></h1>
+<h1 class="tabset tabset-fade"></h1>
 <div id="research-path" class="section level2">
 <h2><strong>Research path</strong></h2>
 <p><img src="images/maribel.png" align="right"></p>
 <p>I am a biotechnology engineer with concentration in molecular biology, I obtained my degree at <a href="https://tec.mx/es">ITESM</a> in Mexico. Nowadays, I am doing my PhD degree in Quebec at <a href="https://www.uqtr.ca/informationgenerale/english.shtml">UQTR</a> in a project directed by <a href="https://oraprdnt.uqtr.uquebec.ca/pls/public/gscw031?owa_no_site=3466">Isabel Desgagné-Penix</a> and co-directed by <a href="https://uwaterloo.ca/applied-mathematics/people-profiles/brian-ingalls">Brian Ingalls</a>, working on <strong><em>The Characterization of vanillin biosynthetic pathway in genetically modified Phaeodactylum tricornutum</em></strong>.</p>
 Currently, I am working on the annotation and assembly of the transcriptome of <em>Leucojum aestivum</em>. Additionally, I have worked with metagenomics data to assign taxonomy to microbial populations from environmental samples in Mexico, analyzing differential compositions depending on crop and developmental stage.
-<footer>
+<footer style="display:block; position: fixed; bottom: 0">
  
 <hr />
 <!-- <p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p> -->
@@ -376,7 +396,7 @@ Get in touch with MaKaCo
 </tbody>
 </table>
 </div>
-<footer>
+<footer style="display:block; position: fixed; bottom: 0">
  
 <hr />
 <!-- <p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p> -->
@@ -390,13 +410,13 @@ Get in touch with MaKaCo
 </footer>
 </div>
 <div id="publications" class="section level2 tabset tab-fade">
-<h2><strong>Publications</strong></h2>
+<h2 class="tabset tab-fade"><strong>Publications</strong></h2>
 <div id="papers" class="section level3">
 <h3><strong>Papers</strong></h3>
 <div id="section-1" class="section level4">
 <h4><em>2021</em></h4>
-<strong>Diaz-Garza, A.M.</strong>, Fierro-Riviera, J.I., Pacheco, A., Schüßler, A., Gradilla-Hernández, M.S. &amp; Senés-Guerrero, C. Temporal dynamics of rhizobacteria found in Pequin pepper, soybean and orange trees growing in a semi-arid ecosystem. <em>Frontiers in Sustainable Food Systems</em>. Submited.
-<footer>
+<p><strong>Diaz-Garza, A.M.</strong>, Fierro-Riviera, J.I., Pacheco, A., Schüßler, A., Gradilla-Hernández, M.S. &amp; Senés-Guerrero, C. Temporal dynamics of rhizobacteria found in Pequin pepper, soybean and orange trees growing in a semi-arid ecosystem. <em>Frontiers in Sustainable Food Systems</em>. Submited.</p>
+<footer style="display:block; position: fixed; bottom: 0">
  
 <hr />
 <!-- <p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p> -->
@@ -412,7 +432,7 @@ Get in touch with MaKaCo
 </div>
 <div id="oral-presentations" class="section level3">
 <h3><strong>Oral presentations</strong></h3>
-<footer>
+<footer style="display:block; position: fixed; bottom: 0">
  
 <hr />
 <!-- <p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p> -->
@@ -435,7 +455,7 @@ Get in touch with MaKaCo
 <h4><em>2018</em></h4>
 <p><strong>Diaz-Garza, A.M.</strong>, Fonseca-Fonseca, W., Isauro-Pérez, D.E. &amp; López-Sánchez A. 2018. Aislamiento, caracterización y propuesta de control del oomiceto <em>Phytophthora capsici</em> en chile. Expoingenierias December 2018 - ITESM, Guadalajara, Mexico.</p>
 <p>Del Toro-Barbosa, M., <strong>Diaz-Garza, A.M.</strong>, Diaz-Vazquéz, D., López-Sánchez A. &amp; Rendón-Flores, R.M. 2018. Creación de un alimento o bioproducto: Electrohol. Expoingenierias May 2018 - ITESM, Guadalajara, Mexico.</p>
-<footer>
+<footer style="display:block; position: fixed; bottom: 0">
  
 <hr />
 <!-- <p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p> -->
@@ -460,7 +480,7 @@ Get in touch with MaKaCo
 <a href=""><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/in/aracely-maribel-diaz-garza-6989b5169/"><i class="fab fa-linkedin-in"></i></a> <a href="http://github.com/MaribelDG"><i class="fab fa-github"></i></a>
 </p>
 <p></span></p>
-<footer>
+<footer style="display:block; position: fixed; bottom: 0">
  
 <hr />
 <!-- <p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p> -->

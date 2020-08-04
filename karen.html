@@ -13,6 +13,7 @@
 
 <title>Karen</title>
 
+<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -296,28 +297,34 @@ $(document).ready(function () {
 
 
 <script src="https://kit.fontawesome.com/0af1a424a5.js" crossorigin="anonymous"></script>
-<style type="text/css">
-footer {
-   bottom: 0;
-   width: 100%;
-   padding: 0px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-   text-align: center;
-     max-width: 1200px;
-
-}
+<style>
 
 .main-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 
+footer {
+left: 50;
+width: 1000px;
+background-color: white;
+display: block;
+text-align: center;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 700px) {
+  .main-container {
+    width: 100%;
+    height: auto;
+  }
+}
+
 </style>
 <div id="section" class="section level1 tabset tabset-fade">
-<h1></h1>
+<h1 class="tabset tabset-fade"></h1>
 <div id="research-path" class="section level2">
 <h2><strong>Research path</strong></h2>
 <div style="width: 100%; display: block">
@@ -427,7 +434,7 @@ Get in touch with MaKaCo
 </footer>
 </div>
 <div id="publications" class="section level2 tabset tabset-fade">
-<h2><strong>Publications</strong></h2>
+<h2 class="tabset tabset-fade"><strong>Publications</strong></h2>
 <div id="papers" class="section level3">
 <h3><strong>Papers</strong></h3>
 <div id="section-1" class="section level4">
