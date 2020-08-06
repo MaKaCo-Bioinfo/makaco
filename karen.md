@@ -173,6 +173,8 @@ Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effe
 
 #### *2013*
 
+**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A.  2013. Evaluación de la respuesta de la yerba mate a la inoculación con microorganismos potencialmente benéficos. II Congreso Paraguayo de Recursos Naturales y Medio Ambiente, Asunción, Paraguay. 
+
 **dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluation of the response of Yerba-Mate to the inoculation with potentially beneficial microorganisms. II Research Initiation Meeting - Unila, Foz do Iguaçu, Brazil.
 
 <footer style="display:block; position: fixed; bottom: 0">
