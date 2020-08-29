@@ -51,7 +51,7 @@ text-align: center;
 <p  align="center">cris.kgs@gmail.com</p>
 
 
-<p  align="center">Or connect with me on GitHub, Twitter, or Linkedin (links in top right).</p>
+<p  align="center">Or connect with me on:</p>
 <span style="font-size: 2em"> <p  align="center"> [<i class="fab fa-twitter"></i>](http://twitter.com/KarenCristineG1) [<i class="fab fa-linkedin-in"></i>](https://www.linkedin.com/in/karen-cristine-gon%C3%A7alves-dos-santos-05847a113/) [<i class="fab fa-github"></i>](http://github.com/KarenGoncalves) </p> </span>
 
 

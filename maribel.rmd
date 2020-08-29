@@ -49,7 +49,7 @@ text-align: center;
 
 <p  align="center">aracely.maribel.diaz.garza@uqtr.ca</p>
 
-<p  align="center">Or connect with me on GitHub, Twitter, or Linkedin (links in top right).</p>
+<p  align="center">Or connect with me on:</p>
 <span style="font-size: 2em"> <p  align="center"> [<i class="fab fa-twitter"></i>]() [<i class="fab fa-linkedin-in"></i>](https://www.linkedin.com/in/aracely-maribel-diaz-garza-6989b5169/) [<i class="fab fa-github"></i>](http://github.com/MaribelDG) </p> </span>
 
 
