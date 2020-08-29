@@ -3,7 +3,7 @@ title: '<span style="display:none">MaKaCo</span>'
 output: 
     html_document:
       include:
-        after-body: footer.html
+        after_body: footer.html
 ---
 
 <script src="https://kit.fontawesome.com/0af1a424a5.js" crossorigin="anonymous"></script>
@@ -82,7 +82,14 @@ display: block;
 </style>
 
 <div class="header">
- ![Analyzing your data <span style="color:#49a5fc">**for**</span> you, <span style="color:#49a5fc">**with**</span> you](images/logo.png) 
+<figure>
+<img style="float:left; width: 300px;" src="images/logo.png" alt="MaKaCo logo">
+<figcaption>
+<center>
+Analyzing your data <span style="color:#49a5fc">**for**</span> you, <span style="color:#49a5fc">**with**</span> you
+</center>
+</figcaption>
+</figure> 
 </div>
 
 <div class="body">
@@ -174,17 +181,3 @@ Hierarchical clustering
 
 </tr>
 </table>
-
-
-<footer>
-&nbsp;
-<hr />
-<!-- <p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p> -->
-
-
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
-</div>

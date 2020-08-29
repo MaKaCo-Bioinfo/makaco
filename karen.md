@@ -2,6 +2,8 @@
 title: "Karen"
 output: 
   html_document:
+    includes:
+      after_body: footer.html
     css: figures.css
 ---
 
@@ -10,13 +12,15 @@ output:
 <style>
 
 .main-container {
-  max-width: 1000px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
 
 footer {
 left: 50;
+padding-left: 200px;
+padding-right: 200px
 width: 1000px;
 background-color: white;
 display: block;
@@ -34,13 +38,33 @@ text-align: center;
 
 </style>
 
+
+<div class = "row">
+
+<div class="col-md-4">
+
+<img src="images/karen.png" align="left" style="width:100%">
+
+<p  align="center">I’d love to hear from you, so feel free to reach out:</p>
+
+<p  align="center">karen.cristine.goncalves.dos.santos@uqtr.ca</p>
+<p  align="center">cris.kgs@gmail.com</p>
+
+
+<p  align="center">Or connect with me on GitHub, Twitter, or Linkedin (links in top right).</p>
+<span style="font-size: 2em"> <p  align="center"> [<i class="fab fa-twitter"></i>](http://twitter.com/KarenCristineG1) [<i class="fab fa-linkedin-in"></i>](https://www.linkedin.com/in/karen-cristine-gon%C3%A7alves-dos-santos-05847a113/) [<i class="fab fa-github"></i>](http://github.com/KarenGoncalves) </p> </span>
+
+
+</div>
+
+<div class = "col-md-8">
+
 #  {.tabset .tabset-fade} 
 
-## **Research path**
+## **Research path** {#research}
 
 <div style="width: 100%; display: block">
 
-<img src="images/karen.png" align="right">
 
 I have a bachelor degree in Biology from Brazil at [Unila](https://portal.unila.edu.br/). There I researched the interaction of two bacteria, _Gluconacetobacter diazotrophicus_ and _Azospirillum brasiliensis_, and a fungi, _Trichoderma harzianum_, with the Mate plant, _Ilex paraguariensis_, under the direction of [Cristian A. Rojas](https://www.researchgate.net/profile/Cristian_Rojas6) and [Cleto Peres](https://www.researchgate.net/profile/Cleto_Peres). 
 
@@ -50,26 +74,14 @@ In 2018, I did an internship at [Peter Solomon's lab](https://biology.anu.edu.au
 
 I also developed a R package for selection of reference genes from transcriptomic data (DOI: https://doi.org/10.1186/s12864-019-6426-2), you can access it on  [Github](https://github.com/KarenGoncalves/CustomSelection) too.
 
+Finally, I am secretary of the Centre SEVE's International Partnership Committee (CPICS, 2018-present). In this role, that I share with two other people, I am responsible for the organization of documents of the committee, for the transcription of meetings and translation of documents. I also designed the [website](https://cpics.netlify.app) for this committee and the website for this company (MaKaCo).
+
 </div>
 
 
-<footer style="display:block; position: fixed; bottom: 0">
-&nbsp;
-<hr />
 
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
+## **Skills** {#skills}
 
-
-
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
-
-## **Skills**
-
-<img src="images/karen.png" align="right">
 
   - R and Bioconductor - Institut National de la Recherche Agronomique (France - 2017)
       - Transcriptomic analysis
@@ -95,7 +107,7 @@ I also developed a R package for selection of reference genes from transcriptomi
   
   - SQL
 
-<div style="display:inline; float: left; width: 60%; padding-left: 20px">
+<div style="display:inline; float: left; width: 100%; padding-left: 20px; padding-right: 40%">
 | Language | Read | Write | Speak | Understand | Native |
 |:----|:---:|:---:|:---:|:---:|:---:|
 | English | Fluent | Advanced | Fluent | Fluent | |
@@ -104,23 +116,11 @@ I also developed a R package for selection of reference genes from transcriptomi
 | Spanish  | Fluent | Yes | Advanced | Fluent | |
 </div>
 
-<footer style="display:block; position: fixed; bottom: 0">
-&nbsp;
-<hr />
-
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
 
 
+## **Publications** {.tabset .tabset-fade #publications}
 
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
-
-## **Publications** {.tabset .tabset-fade} 
-
-### **Papers** 
+### **Papers** {#papers}
 
 #### *2020*
 
@@ -142,21 +142,9 @@ Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effe
 
 **dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; C.A. Rojas. 2013. _Gluconacetobacter diazotrophicus_ enhances growth initial stages of _Ilex paraguariensis_ development. II Conferência Iberoamericana de Interaçoes Benéficas Microorganismos-Planta-Ambiente (IBEMPA), p. 450-451 (Extended abstract).
 
-<footer style="display:block; position: fixed; bottom: 0">
-&nbsp;
-<hr />
-
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
 
 
-
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
-
-### **Oral presentations**
+### **Oral presentations** {#presentations}
 
 
 #### *2020*
@@ -177,21 +165,9 @@ Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effe
 
 **dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluation of the response of Yerba-Mate to the inoculation with potentially beneficial microorganisms. II Research Initiation Meeting - Unila, Foz do Iguaçu, Brazil.
 
-<footer style="display:block; position: fixed; bottom: 0">
-&nbsp;
-<hr />
-
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
 
 
-
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
-
-### **Poster presentations**
+### **Poster presentations** {#posters}
 
 #### *2020*
 
@@ -233,34 +209,8 @@ Rojas. 2014. Analysis of the endophytic interaction of beneficial microorganisms
 **dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluation of the response of Yerba-Mate to the inoculation with potentially beneficial microorganisms. II Research Initiation Meeting - Unila, Foz do Iguaçu, Brazil.
 
 
-<footer>
-&nbsp;
-<hr />
 
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
+</div>
 
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
+</div>
 
-</footer>
-
-## **Get in touch**
-
-<p align="center"> <img src="images/karen.png"> </p>
-
-<span style="font-size: 2em"> <p  align="center"> [<i class="fab fa-twitter"></i>](http://twitter.com/KarenCristineG1) [<i class="fab fa-linkedin-in"></i>](https://www.linkedin.com/in/karen-cristine-gon%C3%A7alves-dos-santos-05847a113/) [<i class="fab fa-github"></i>](http://github.com/KarenGoncalves) </p> </span>
-
-<footer style="display:block; position: fixed; bottom: 0">
-&nbsp;
-<hr />
-
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
-
-
-<p style="text-align: center;font-size: 0.5em">Get in touch with MaKaCo</p>
-
-<p style="text-align: center;font-size: 1em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
