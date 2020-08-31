@@ -3,6 +3,8 @@ title: "Karen"
 output: 
   html_document:
     css: figures.css
+    include:
+      after_body: footer.html
 ---
 
 <script src="https://kit.fontawesome.com/0af1a424a5.js" crossorigin="anonymous"></script>
@@ -15,15 +17,6 @@ output:
   margin-right: auto;
 }
 
-footer {
-left: 50;
-width: 1000px;
-background-color: white;
-display: block;
-text-align: center;
-}
-
-
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 700px) {
   .main-container {
@@ -32,6 +25,19 @@ text-align: center;
   }
 }
 
+figure {
+  float: right;
+  width: 30%
+}
+
+figcaption {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em
+  
+}
 </style>
 
 #  {.tabset .tabset-fade} 
@@ -39,8 +45,11 @@ text-align: center;
 ## **Research path**
 
 <div style="width: 100%; display: block">
+<figure>
+  <img style="display: block;   width: 100%" src="images/karen.png" alt="Karen">
+  <figcaption style="padding-right: 35%"> <center><a href="http://twitter.com/KarenCristineG1"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/in/karen-cristine-gon%C3%A7alves-dos-santos-05847a113/"> <i class="fab fa-linkedin-in"></i></a> <a href="http://github.com/KarenGoncalves"> <i class="fab fa-github"></i> </a> </center></figcaption>
+</figure>
 
-<img src="images/karen.png" align="right">
 
 I have a bachelor degree in Biology from Brazil at [Unila](https://portal.unila.edu.br/). There I researched the interaction of two bacteria, _Gluconacetobacter diazotrophicus_ and _Azospirillum brasiliensis_, and a fungi, _Trichoderma harzianum_, with the Mate plant, _Ilex paraguariensis_, under the direction of [Cristian A. Rojas](https://www.researchgate.net/profile/Cristian_Rojas6) and [Cleto Peres](https://www.researchgate.net/profile/Cleto_Peres). 
 
@@ -50,22 +59,11 @@ In 2018, I did an internship at [Peter Solomon's lab](https://biology.anu.edu.au
 
 I also developed a R package for selection of reference genes from transcriptomic data (DOI: https://doi.org/10.1186/s12864-019-6426-2), you can access it on  [Github](https://github.com/KarenGoncalves/CustomSelection) too.
 
+Finally, I am secretary of the Centre SEVE's International Partnership Committee (CPICS, 2018-present). In this role, that I share with two other people, I am responsible for the organization of documents of the committee, for the transcription of meetings and translation of documents. I also designed the website for this committee and the [website](https://cpics.netlify.app) for this company (MaKaCo).
+
 </div>
 
 
-<footer style="display:block; position: fixed; bottom: 0">
-&nbsp;
-<hr />
-
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
-
-
-
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
 
 ## **Skills**
 
@@ -104,19 +102,7 @@ I also developed a R package for selection of reference genes from transcriptomi
 | Spanish  | Fluent | Yes | Advanced | Fluent | |
 </div>
 
-<footer style="display:block; position: fixed; bottom: 0">
-&nbsp;
-<hr />
 
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
-
-
-
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
 
 ## **Publications** {.tabset .tabset-fade} 
 
@@ -142,19 +128,7 @@ Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effe
 
 **dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; C.A. Rojas. 2013. _Gluconacetobacter diazotrophicus_ enhances growth initial stages of _Ilex paraguariensis_ development. II Conferência Iberoamericana de Interaçoes Benéficas Microorganismos-Planta-Ambiente (IBEMPA), p. 450-451 (Extended abstract).
 
-<footer style="display:block; position: fixed; bottom: 0">
-&nbsp;
-<hr />
 
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
-
-
-
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
 
 ### **Oral presentations**
 
@@ -177,19 +151,7 @@ Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effe
 
 **dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluation of the response of Yerba-Mate to the inoculation with potentially beneficial microorganisms. II Research Initiation Meeting - Unila, Foz do Iguaçu, Brazil.
 
-<footer style="display:block; position: fixed; bottom: 0">
-&nbsp;
-<hr />
 
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
-
-
-
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
 
 ### **Poster presentations**
 
@@ -233,17 +195,7 @@ Rojas. 2014. Analysis of the endophytic interaction of beneficial microorganisms
 **dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluation of the response of Yerba-Mate to the inoculation with potentially beneficial microorganisms. II Research Initiation Meeting - Unila, Foz do Iguaçu, Brazil.
 
 
-<footer>
-&nbsp;
-<hr />
 
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
-
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
 
 ## **Get in touch**
 
@@ -251,16 +203,3 @@ Rojas. 2014. Analysis of the endophytic interaction of beneficial microorganisms
 
 <span style="font-size: 2em"> <p  align="center"> [<i class="fab fa-twitter"></i>](http://twitter.com/KarenCristineG1) [<i class="fab fa-linkedin-in"></i>](https://www.linkedin.com/in/karen-cristine-gon%C3%A7alves-dos-santos-05847a113/) [<i class="fab fa-github"></i>](http://github.com/KarenGoncalves) </p> </span>
 
-<footer style="display:block; position: fixed; bottom: 0">
-&nbsp;
-<hr />
-
-<!--<p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p>-->
-
-
-<p style="text-align: center;font-size: 0.5em">Get in touch with MaKaCo</p>
-
-<p style="text-align: center;font-size: 1em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
