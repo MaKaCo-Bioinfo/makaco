@@ -9,8 +9,6 @@ body {
   color: black;
 }
 
-
-
 input[type="text"], input[type="email"], input[type="search"], 
 input[type="submit"], button, textarea { 
   padding: 1em ; 

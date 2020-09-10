@@ -1,26 +1,20 @@
 ---
 title: '<span style="display:none">MaKaCo</span>'
 output: 
-    html_document:
-      include:
-        after-body: footer.html
+  html_document:
+    includes:
+      after_body: footer.html
 ---
 
 <script src="https://kit.fontawesome.com/0af1a424a5.js" crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <style>
 
-.main-container {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 img {
   margin-left: auto; 
   margin-right:auto
-  width: 100%;
-  height: 100%;
+  max-width: 50%;
+  max-height: 50%;
   border: none;
 }
 figcaption {
@@ -28,75 +22,45 @@ margin-left: auto;
 margin-right:auto
 width: 100%;
 border: none;
-text-aling: center;
+text-align: center;
 }
 table {
 border: none;
 margin-left: auto; 
 margin-right:auto
-text-aling: center;
+text-align: center;
 }
 
 td {
 padding-left: 15px;
 padding-right: 15px;
-text-aling: center;
-}
-
-footer {
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: white;
-display: block;
-   text-align: center;
-}
-
-.header {
-  float: left;
-  width: 15%;
-  margin-left: auto; 
-  margin-right: auto; 
-  display: block; 
-  font-size:3em; 
-  text-align: center;
-}
-
-.body {
-  float: left;
-  width: 70%;
-  margin-left: auto; 
-  margin-right: auto; 
-  display: block; 
-  text-align: center;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 1000px) {
-  .header, .body {
-    width: 100%;
-    height: auto;
-  }
+text-align: center;
 }
 
 </style>
 
-<div class="header">
- ![Analyzing your data <span style="color:#49a5fc">**for**</span> you, <span style="color:#49a5fc">**with**</span> you](images/logo.png) 
-</div>
+<div class="container-fluid">
+<div class="row">
 
-<div class="body">
-<div style="display: block; padding-top: 40px; font-size:2em;"> 
-**What we do**
-</div>
+<div style="display: block; padding-top: 0px; font-size:2em; text-align: center"> 
 
+<figure>
+<img style="width: 20%;" src="images/logo.png" alt="MaKaCo logo">
+<figcaption>
+<center>
+Analyzing your data <span style="color:#49a5fc">**for**</span> you, <br><span style="color:#49a5fc">**with**</span> you
+</center>
+</figcaption>
+</figure>
+  
+  <br>
+</div>  
 <table>
+<tbody>
 <tr>
-
-
 <td>
 <figure>
-<img style="float:left; width: 300px;" src="images/TrinityCompositeLogo.png" alt="Trulli">
+<img style="float:left; width: 300px;" src="images/TrinityCompositeLogo.png" alt="Trinity RNAseq">
 <figcaption>
 <center>
 Transcriptome assembly with [Trinity](https://github.com/trinityrnaseq/trinityrnaseq/wiki)
@@ -107,7 +71,7 @@ Transcriptome assembly with [Trinity](https://github.com/trinityrnaseq/trinityrn
 
 <td>
 <figure>
-<img style="float:left;  width: 300px;" src="images/TrinotateLogo.png" alt="Trulli">
+<img style="float:left;  width: 300px;" src="images/TrinotateLogo.png" alt="Trinotate">
 <figcaption>
 <center>
 Transcriptome annotation with [Trinotate](https://github.com/trinotate/trinotate.github.io/wiki)
@@ -120,7 +84,7 @@ Transcriptome annotation with [Trinotate](https://github.com/trinotate/trinotate
 
 <td>
 <figure>
-<img style="float:left;width: 300px; " src="images/read_alignment.png" alt="Trulli">
+<img style="float:left;width: 300px; " src="images/read_alignment.png" alt="Read alignment">
 <figcaption>
 <center>
 Read alignment and counting
@@ -136,7 +100,7 @@ Read alignment and counting
 <tr>
 <td>
 <figure>
-<img style="float:left;width: 300px; " src="images/Transcriptomes_heatmap_example.png" alt="Trulli">
+<img style="float:left;width: 300px; " src="images/Transcriptomes_heatmap_example.png" alt="Heatmap of differentially expressed genes">
 <figcaption>
 <center>
 Differential expression analysis
@@ -150,7 +114,7 @@ Differential expression analysis
 
 <td>
 <figure>
-<img style="display: inline; float: left;width: 300px; " src="images/pca.png" alt="Trulli">
+<img style="display: inline; float: left;width: 300px; " src="images/pca.png" alt="Principal component analysis">
 <figcaption>
 <center>
 Principal component analysis
@@ -162,7 +126,7 @@ Principal component analysis
 
 <td>
 <figure>
-<img style="display: inline; float: left;width: 300px; " src="images/hclust.png" alt="Trulli">
+<img style="display: inline; float: left;width: 300px; " src="images/hclust.png" alt="Hierarchical clustering">
 <figcaption>
 <center>
 Hierarchical clustering
@@ -173,18 +137,10 @@ Hierarchical clustering
 </td>
 
 </tr>
+</tbody>
 </table>
 
 
-<footer>
-&nbsp;
-<hr />
-<!-- <p style="text-align: center;">Copyright &copy; 2020 MaKaCo, Inc. All rights reserved.</p> -->
 
-
-<p style="text-align: center;">Get in touch with MaKaCo</p>
-<p style="text-align: center;font-size: 2em">[<i class="fab fa-github"></i>](https://github.com/makacom)     [<i class="fab fa-twitter"></i>]()     [<i class="fab fa-linkedin-in"></i>]()  </p>
-&nbsp;
-
-</footer>
+</div>
 </div>
