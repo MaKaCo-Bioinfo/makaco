@@ -152,7 +152,7 @@ Finally, I am secretary of the Centre SEVE's International Partnership Committee
 | English | Fluent | Advanced | Fluent | Fluent | |
 | French | Fluent | Intermediary | Advanced | Fluent | |
 | Portuguese | Fluent | Fluent | Fluent | Fluent | Yes |
-| Spanish  | Fluent | Yes | Advanced | Fluent | |
+| Spanish  | Fluent | Fluent | Advanced | Fluent | |
 </div>
 
 
