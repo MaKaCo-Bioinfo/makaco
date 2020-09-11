@@ -10,6 +10,12 @@ output:
 <script src="https://kit.fontawesome.com/0af1a424a5.js" crossorigin="anonymous"></script>
 
 <style>
+img { 
+  width: 30%;
+  margin: 0.6em ;
+  border: 0.4em solid;
+}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -63,7 +69,7 @@ text-align: center;
 
 <div class = "row">
 
-<div class="col-md-4">
+<div class="col-md-4" style="position: -webkit-sticky; position: sticky; top: 5%">
 
 <div class = "row">
 <style> img {width: 100%; text-align: center}</style>
@@ -117,7 +123,7 @@ Finally, I am secretary of the Centre SEVE's International Partnership Committee
 
 </div>
 
-
+------------------------------------
 
 # **Skills** {#skills}
 
@@ -154,8 +160,10 @@ Finally, I am secretary of the Centre SEVE's International Partnership Committee
 | Portuguese | Fluent | Fluent | Fluent | Fluent | Yes |
 | Spanish  | Fluent | Fluent | Advanced | Fluent | |
 </div>
-
-
+  
+  
+   
+------------------------------------
 
 # **Publications** 
 
@@ -252,7 +260,7 @@ Rojas. 2014. Analysis of the endophytic interaction of beneficial microorganisms
 </div>
 
 </div>
-
+<!--
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script>
 //Get the button
@@ -274,4 +282,4 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-</script>
+</script>-->
