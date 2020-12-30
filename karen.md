@@ -41,8 +41,12 @@ img {
   margin-right: auto;
 }
 
-h1, h2, h3, h4 {
+h1, h2{
 text-align: center
+}
+
+h3 {
+text-aling: left
 }
 
 .col-md-6 {
@@ -144,25 +148,27 @@ Finally, I am secretary of the Centre SEVE's International Partnership Committee
   
 ## Technical {#technical}
 
-<table style="margin: 0px;width: 100%;">
+<table style="margin: 0px;width: 100%; border: 0">
 <tr>
-<td>- MS Office </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i> </td></tr>
+<td>- MS Office </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></td></tr>
 <tr>
-<td>- R and Bioconductor </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></span> </td></tr>
+<td>- R and Bioconductor </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></span> </td></tr>
 <tr>
-<td>- Unix </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></td></tr>
+<td>- High performance computing </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i> </td></tr>
 <tr>
-<td>- High performance computing </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i> </td></tr>
+<td>- Unix </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></td></tr>
 <tr>
-<td>- Markdown </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i> </td></tr>
+<td>- Markdown </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i> </td></tr>
 <tr>
-<td>- HTML </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i> </td></tr>
+<td>- HTML </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i> </td></tr>
 <tr>
-<td>- CSS </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i> </td></tr>
+<td>- CSS </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i> </td></tr>
 <tr>
-<td>- SQL </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i> </td></tr>
+<td>- Python </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>  </td></tr>
 <tr>
-<td>- Python </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>  </td></tr>
+<td>- SQL </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i> </td></tr>
+<tr>
+<td>- Latex </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class="righty"><i  class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>  </td></tr>
 </table>
   
 <br><br>
@@ -186,26 +192,25 @@ Finally, I am secretary of the Centre SEVE's International Partnership Committee
 
 ### *2020*
 
-**dos Santos, K.C.G.**, Pelletier, G., Séguin, A. Guillemette, F., Hawkes, J., Desgagné-Penix, I. & Germain, H. Differential alteration of plant functions by homologous fungal candidate effectors. bioRxiv (2020) DOI: [10.1101/2020.10.30/363010](https://doi.org/10.1101/2020.10.30.363010)
+**dos Santos, K.C.G.**, Pelletier, G., Séguin, A. Guillemette, F., Hawkes, J., Desgagné-Penix, I. & Germain, H. Differential alteration of plant functions by homologous fungal candidate effectors. *bioRxiv* (2020) DOI: [10.1101/2020.10.30/363010](https://doi.org/10.1101/2020.10.30.363010)
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. BMC Genomics 21, 35 (2020) DOI: [10.1186/s12864-019-6426-2](https://doi.org/10.1186/s12864-019-6426-2)
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. *BMC Genomics* 21, 35 (2020) DOI: [10.1186/s12864-019-6426-2](https://doi.org/10.1186/s12864-019-6426-2)
 
 ### *2019*
 
-Fradj, N., **dos Santos, K.C.G.**, Montigny, N., Awwad, F., Boumghar, Y., Germain, H., Desgagné-Penix, I.  2019. RNA-Seq de Novo Assembly and Differential Transcriptome Analysis of Chaga (_Inonotus obliquus_) Cultured with Different Betulin Sources and the Regulation of Genes Involved in Terpenoid Biosynthesis. International Journal of Molecular Sciences 20(18), 4334. DOI: [10.3390/ijms20184334](https://doi.org/10.3390/ijms20184334)
+Fradj, N., **dos Santos, K.C.G.**, Montigny, N., Awwad, F., Boumghar, Y., Germain, H., Desgagné-Penix, I.  2019. RNA-Seq de Novo Assembly and Differential Transcriptome Analysis of Chaga (_Inonotus obliquus_) Cultured with Different Betulin Sources and the Regulation of Genes Involved in Terpenoid Biosynthesis. *International Journal of Molecular Sciences* 20(18), 4334. DOI: [10.3390/ijms20184334](https://doi.org/10.3390/ijms20184334)
 
-Lorrain, C., **Gonçalves dos Santos, K.C.**, Germain, H., Hecker, A. and Duplessis, S. 2019. Advances in understanding obligate biotrophy in rust fungi. New Phytologist, 222: 1190-1206. DOI: [10.1111/nph.15641](https://doi.org/10.1111/nph.15641)
+Lorrain, C., **Gonçalves dos Santos, K.C.**, Germain, H., Hecker, A. and Duplessis, S. 2019. Advances in understanding obligate biotrophy in rust fungi. *New Phytologist*, 222: 1190-1206. DOI: [10.1111/nph.15641](https://doi.org/10.1111/nph.15641)
 
 ### *2018*
 
-**dos Santos, K.C.G.**, McDonald, M. 2018. High molecular weight DNA extraction for long read sequencing v1. Protocols.io, DOI: [10.17504/protocols.io.uppevmn](https://doi.org/10.17504/protocols.io.uppevmn)
+**dos Santos, K.C.G.**, McDonald, M. 2018. High molecular weight DNA extraction for long read sequencing v1. *Protocols.io*, DOI: [10.17504/protocols.io.uppevmn](https://doi.org/10.17504/protocols.io.uppevmn)
 
-Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effector binds plant DNA and modulates transcription. Scientific Reports 8, 14718, DOI: [10.1038/s41598-018-32825-0](https://doi.org/10.1038/s41598-018-32825-0)
+Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effector binds plant DNA and modulates transcription. *Scientific Reports* 8, 14718, DOI: [10.1038/s41598-018-32825-0](https://doi.org/10.1038/s41598-018-32825-0)
 
 ### *2013*
 
-**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; C.A. Rojas. 2013. _Gluconacetobacter diazotrophicus_ enhances growth initial stages of _Ilex paraguariensis_ development. II Conferência Iberoamericana de Interaçoes Benéficas Microorganismos-Planta-Ambiente (IBEMPA), p. 450-451 (Extended abstract).
-
+**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; C.A. Rojas. 2013. _Gluconacetobacter diazotrophicus_ enhances growth initial stages of _Ilex paraguariensis_ development. In: [**Acta SEFIN 2013**](http://sefin-fbn.es/wp-content/uploads/2016/08/Actas-SEFIN2013.pdf), p. 450-451 (Extended abstract). 
 
 
 ## **Oral presentations** {#presentations}
@@ -213,21 +218,21 @@ Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effe
 
 ### *2020*
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2017. Impact of fungal virulence proteins on in plants. Conferences Webs du Centre SÉVE (online).
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2017. Impact of fungal virulence proteins on in plants. *Conferences Webs du Centre SÉVE* (online).
 
 ### *2017*
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2017. Transcriptomic and metabolomic analysis of the alteration of physiological processes in a collection of transgenic plants expressing fungal effectors. Centre SÉVE, Orford, Canada
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2017. Transcriptomic and metabolomic analysis of the alteration of physiological processes in a collection of transgenic plants expressing fungal effectors. *Centre SÉVE*, Orford, Canada
 
 ### *2014*
 
-**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2014. Análise da interação endofítica de microorganismos benéficos e a erva-mate. **III Encontro de Iniciação Científica da Unila “Pesquisa no século XXI: desafios e possibilidades”**. In: [*Anais do III Encontro de Iniciação Científica da Unila “Pesquisa no século XXI: desafios e possibilidades”*](http://dspace.unila.edu.br/123456789/736), p. 135, Foz do Iguaçu, Brazil.
+**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2014. Análise da interação endofítica de microorganismos benéficos e a erva-mate. In: [**Anais do III Encontro de Iniciação Científica da Unila “Pesquisa no século XXI: desafios e possibilidades”**](http://dspace.unila.edu.br/123456789/736), p. 135. *III Encontro de Iniciação Científica da Unila “Pesquisa no século XXI: desafios e possibilidades”*, Foz do Iguaçu, Brazil.
 
 ### *2013*
 
 **dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A.  2013. Evaluación de la respuesta de la yerba mate a la inoculación con microorganismos potencialmente benéficos. II Congreso Paraguayo de Recursos Naturales y Medio Ambiente, Asunción, Paraguay. 
 
-**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Avaliação da Resposta da Erva-mate à Inoculação com Microorganismos Potencialmetne Benéficos. **II Encontro de Iniciação Científica da Unila "Resultados em debate"**. In: [*Anais do 2º Encontro de Iniciação Científica da Unila "Resultados em debate"*](http://dspace.unila.edu.br/123456789/735), p. 55-56, Foz do Iguaçu, Brazil.
+**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Avaliação da Resposta da Erva-mate à Inoculação com Microorganismos Potencialmetne Benéficos. In: [**Anais do 2º Encontro de Iniciação Científica da Unila "Resultados em debate"**](http://dspace.unila.edu.br/123456789/735), p. 55-56. *II Encontro de Iniciação Científica da Unila "Resultados em debate"*, Foz do Iguaçu, Brazil.
 
 
 
@@ -235,50 +240,49 @@ Ahmed, M.B., **Santos, K.C.G.d.**, Sanchez, I.B. et al. 2018. A rust fungal effe
 
 ### *2020*
 
-**dos Santos, K.C.G.**, Pelletier, G., Séguin, A. Guillemette, F., Hawkes, J., Desgagné-Penix, I. & Germain, H. Differential alteration of plant functions by homologous fungal candidate effectors. [Concours d'affiches scientifiques étudiantes 2020 du Centre SÈVE](https://event.fourwaves.com/fr/affichesetudiantescs/abstracts/24a206e5-03ec-43ce-b763-1a920c3f9736) (online).
+**dos Santos, K.C.G.**, Pelletier, G., Séguin, A. Guillemette, F., Hawkes, J., Desgagné-Penix, I. & Germain, H. Differential alteration of plant functions by homologous fungal candidate effectors. [*Concours d'affiches scientifiques étudiantes 2020 du Centre SÈVE*](https://event.fourwaves.com/fr/affichesetudiantescs/abstracts/24a206e5-03ec-43ce-b763-1a920c3f9736) (online).
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2020. Étude des plantes exprimant des protéines de virulence de la rouille du peuplier. Contest of scientific Posters - UQTR, Trois-Rivières, Canada.
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2020. Étude des plantes exprimant des protéines de virulence de la rouille du peuplier. *Concours d'affiches scientifiques - UQTR*, Trois-Rivières, Canada.
 
 ### *2019*
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Transcriptomics and metabolomics of Arabidopsis expressing effectors from the poplar rust. Réunion conjointe Centre SÉVE-SPPQ, Bromont, Canada.
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Transcriptomics and metabolomics of Arabidopsis expressing effectors from the poplar rust. *Réunion conjointe Centre SÉVE-SPPQ*, Bromont, Canada.
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Effectors from poplar rust modulate Arabidopsis transcriptome. IS-MPMI 2019, Glasgow, United Kingdom.
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Effectors from poplar rust modulate Arabidopsis transcriptome. *IS-MPMI* 2019, Glasgow, United Kingdom.
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. Plant Canada 2019, Guelph, Canada.
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. *Plant Canada 2019*, Guelph, Canada.
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. Plant Canada 2019, Guelph, Canada.
-
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Facteurs de virulence fongique modulent le transcriptome d'Arabidopsis. Contest of scientific Posters - UQTR, Trois-Rivières, Canada.
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2019. Facteurs de virulence fongique modulent le transcriptome d'Arabidopsis. *Concours d'affiches scientifiques - UQTR*, Trois-Rivières, Canada.
 
 ### *2018*
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2018. Analysis of transcriptomic alterations in a collection of transgenic plants expressing fungal effectors. Plant Biology 2018, Montreal, Canada.
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2018. Analysis of transcriptomic alterations in a collection of transgenic plants expressing fungal effectors. *Plant Biology 2018*, Montreal, Canada.
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2018. Analysis of transcriptomic alterations in a collection of transgenic plants expressing fungal effectors. Contest of scientific Posters - UQTR, Trois-Rivières, Canada.
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2018. Analysis of transcriptomic alterations in a collection of transgenic plants expressing fungal effectors. *Concours d'affiches scientifiques - UQTR*, Trois-Rivières, Canada.
 
 ### *2017*
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2017. Transcriptomic and metabolomic analysis of the alteration of physiological processes in a collection of transgenic plants expressing fungal effectors. Contest of scientific posters - UQTR, Trois-Rivières, Canada.
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. 2017. Transcriptomic and metabolomic analysis of the alteration of physiological processes in a collection of transgenic plants expressing fungal effectors. *Concours d'affiches scientifiques - UQTR*, Trois-Rivières, Canada.
 
 ### *2014*
 
 **dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2014. Promoción del crecimiento de *Ilex paraguariensis* mediada por *Gluconacetobacter diazotrophicus* y su relación con el metabolismo del nitrógeno. In: [**Memorias del VI Congreso Sudamericano de Yerba Mate y II Simposio Internacional de Yerba-Mate y Salud**](http://www.congresos-rohr.com/yerbamate2014/trabajo_docs/65_T74_pdfwxD7X_pdf3LgCf.pdf), Montevideo, Uruguay.
 
-**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; C.A. Rojas. 2014. Análise da interação endofítica de microorganismos benéficos e a erva-mate. **III Encontro de Iniciação Científica da Unila “Pesquisa no século XXI: desafios e possibilidades”**, Foz do Iguaçu, Brazil.
+**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; C.A. Rojas. 2014. Análise da interação endofítica de microorganismos benéficos e a erva-mate. In: [**Anais do III Encontro de Iniciação Científica da Unila “Pesquisa no século XXI: desafios e possibilidades”**](http://dspace.unila.edu.br/123456789/736), p. 135. *III Encontro de Iniciação Científica da Unila “Pesquisa no século XXI: desafios e possibilidades”*, Foz do Iguaçu, Brazil.
 
 ### *2013*
 
-**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluación de la respuesta de la yerba mate a la inoculación con microorganismos potencialmente benéficos. **IV Congreso de Agrobiotecnología, Propiedad Intelectual y Políticas Públicas**, Posadas, Argentina.
+**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; C.A. Rojas. 2013. _Gluconacetobacter diazotrophicus_ enhances growth initial stages of _Ilex paraguariensis_ development. In: [**Acta SEFIN 2013**](http://sefin-fbn.es/wp-content/uploads/2016/08/Actas-SEFIN2013.pdf), p. 450-451 (Extended abstract). *II IBEMPA, XIV National Meeting of the SEFIN, XXVI ALAR and II Spanish-Portuguese Congress on Nitrogen Fixation*, Sevilla, Spain.
 
-**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Avaliação da Resposta da Erva-mate à Inoculação com Microorganismos Potencialmetne Benéficos. **II Encontro de Iniciação Científica da Unila "Resultados em debate"**, Foz do Iguaçu, Brazil.
+**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluación de la respuesta de la yerba mate a la inoculación con microorganismos potencialmente benéficos. *IV Congreso de Agrobiotecnología, Propiedad Intelectual y Políticas Públicas*, Posadas, Argentina.
+
+**dos Santos, K.C.G.**; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Avaliação da Resposta da Erva-mate à Inoculação com Microorganismos Potencialmetne Benéficos. In: [**Anais do 2º Encontro de Iniciação Científica da Unila "Resultados em debate"**](http://dspace.unila.edu.br/123456789/735), p. 55-56. *II Encontro de Iniciação Científica da Unila "Resultados em debate"*, Foz do Iguaçu, Brazil.
 
 
 
 </div>
 
 </div>
-<!--
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script>
 //Get the button
@@ -300,4 +304,4 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-</script>-->
+</script>
