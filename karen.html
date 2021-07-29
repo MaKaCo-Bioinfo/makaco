@@ -13,22 +13,36 @@
 
 <title>Karen</title>
 
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -41,32 +55,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="figures.css" type="text/css" />
 
@@ -77,10 +66,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -97,40 +82,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -158,7 +116,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -170,7 +128,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -181,10 +139,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -196,7 +167,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -286,7 +256,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -382,7 +352,8 @@ Or connect with me on:
 </div>
 </div>
 <div class="col-md-8">
-<h1 id="research"><strong>Research path</strong></h1>
+<div id="research" class="section level1">
+<h1><strong>Research path</strong></h1>
 <div style="width: 100%; display: block">
 <p>I have a bachelor degree in Biology from Brazil at <a href="https://portal.unila.edu.br/">Unila</a>. There I researched the interaction of two bacteria, <em>Gluconacetobacter diazotrophicus</em> and <em>Azospirillum brasiliensis</em>, and a fungi, <em>Trichoderma harzianum</em>, with the Mate plant, <em>Ilex paraguariensis</em>, under the direction of <a href="https://www.researchgate.net/profile/Cristian_Rojas6">Cristian A. Rojas</a> and <a href="https://www.researchgate.net/profile/Cleto_Peres">Cleto Peres</a>.</p>
 <p>I am currently doing my PhD in Quebec with <a href="http://www.germainhugo.com/">Hugo Germain</a> and <a href="https://oraprdnt.uqtr.uquebec.ca/pls/public/gscw031?owa_no_site=3466">Isabel Desgagne-Penix</a> at <a href="http:/uqtr.ca">UQTR</a> on <strong><em>Transcriptomics and metabolomics of Arabidopsis in response to fungal virulence proteins</em></strong>. Although my PhD program is in Cellular and molecular biology, I did all the analyses of my transcriptomic data and currently on my metabolomic data and I have collaborated in other projects throughout my PhD doing <em>de novo</em> transcriptome assembly, annotation and differential exon usage.</p>
@@ -390,7 +361,9 @@ Or connect with me on:
 <p>I also developed a R package for selection of reference genes from transcriptomic data (DOI: <a href="https://doi.org/10.1186/s12864-019-6426-2" class="uri">https://doi.org/10.1186/s12864-019-6426-2</a>), you can access it on <a href="https://github.com/KarenGoncalves/CustomSelection">Github</a> too.</p>
 <p>Finally, I am secretary of the Centre SEVE’s International Partnership Committee (CPICS, 2018-present). In this role, that I share with two other people, I am responsible for the organization of documents of the committee, for the transcription of meetings and translation of documents. I also designed the <a href="https://cpics.netlify.app">website</a> for this committee and the website for this company (MaKaCo).</p>
 </div>
-<h1 id="skills"><strong>Skills</strong></h1>
+</div>
+<div id="skills" class="section level1">
+<h1><strong>Skills</strong></h1>
 <ul>
 <li><p>R and Bioconductor - Institut National de la Recherche Agronomique (France - 2017)</p>
 <ul>
@@ -461,48 +434,90 @@ Or connect with me on:
 </tbody>
 </table>
 </div>
-<h1 id="publications"><strong>Publications</strong></h1>
-<h2 id="papers"><strong>Papers</strong></h2>
-<h3 id="section"><em>2020</em></h3>
-<p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. BMC Genomics 21, 35 (2020) DOI: <a href="https://doi.org/10.1186/s12864-019-6426-2">10.1186/s12864-019-6426-2</a></p>
-<h3 id="section-1"><em>2019</em></h3>
+</div>
+<div id="publications" class="section level1">
+<h1><strong>Publications</strong></h1>
+<div id="papers" class="section level2">
+<h2><strong>Papers</strong></h2>
+<div id="section" class="section level3">
+<h3><em>2021</em></h3>
+<p>Rahman, M.S, Madina, M.H.,Plourde, M.B., <strong>dos Santos, K.C.G.</strong>, Huang, X., Zhang, Y, Laliberté, J.-F., Germain, H. The fungal effector Mlp37347 alters plasmodesmata fluxes and enhances susceptibility to pathogen. <em>Microorganisms</em> (2021), 9(6): 1232. DOI: <a href="https://doi.org/10.3390/microorganisms9061232">10.3390/microorganisms9061232</a></p>
+<p><strong>dos Santos, K.C.G.</strong>, Pelletier, G., Séguin, A. Guillemette, F., Hawkes, J., Desgagné-Penix, I. &amp; Germain, H. Unrelated fungal rust candidate effectors act on overlapping plant functions. <em>Microorganisms</em> (2021), 9(5): 996. DOI: <a href="https://doi.org/10.3390/microorganisms9050996">10.3390/microorganisms9050996</a>.</p>
+</div>
+<div id="section-1" class="section level3">
+<h3><em>2020</em></h3>
+<p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. <em>BMC Genomics</em> (2020), 21(35). DOI: <a href="https://doi.org/10.1186/s12864-019-6426-2">10.1186/s12864-019-6426-2</a></p>
+</div>
+<div id="section-2" class="section level3">
+<h3><em>2019</em></h3>
 <p>Fradj, N., <strong>dos Santos, K.C.G.</strong>, Montigny, N., Awwad, F., Boumghar, Y., Germain, H., Desgagné-Penix, I. 2019. RNA-Seq de Novo Assembly and Differential Transcriptome Analysis of Chaga (<em>Inonotus obliquus</em>) Cultured with Different Betulin Sources and the Regulation of Genes Involved in Terpenoid Biosynthesis. International Journal of Molecular Sciences 20(18), 4334. DOI: <a href="https://doi.org/10.3390/ijms20184334">10.3390/ijms20184334</a></p>
 <p>Lorrain, C., <strong>Gonçalves dos Santos, K.C.</strong>, Germain, H., Hecker, A. and Duplessis, S. 2019. Advances in understanding obligate biotrophy in rust fungi. New Phytol, 222: 1190-1206. DOI: <a href="https://doi.org/10.1111/nph.15641">10.1111/nph.15641</a></p>
-<h3 id="section-2"><em>2018</em></h3>
+</div>
+<div id="section-3" class="section level3">
+<h3><em>2018</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>, McDonald, M. 2018. High molecular weight DNA extraction for long read sequencing v1. Protocols.io, DOI: <a href="https://doi.org/10.17504/protocols.io.uppevmn">10.17504/protocols.io.uppevmn</a></p>
 <p>Ahmed, M.B., <strong>Santos, K.C.G.d.</strong>, Sanchez, I.B. et al. 2018. A rust fungal effector binds plant DNA and modulates transcription. Sci Rep 8, 14718, DOI: <a href="https://doi.org/10.1038/s41598-018-32825-0">10.1038/s41598-018-32825-0</a></p>
-<h3 id="section-3"><em>2013</em></h3>
+</div>
+<div id="section-4" class="section level3">
+<h3><em>2013</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; C.A. Rojas. 2013. <em>Gluconacetobacter diazotrophicus</em> enhances growth initial stages of <em>Ilex paraguariensis</em> development. II Conferência Iberoamericana de Interaçoes Benéficas Microorganismos-Planta-Ambiente (IBEMPA), p. 450-451 (Extended abstract).</p>
-<h2 id="presentations"><strong>Oral presentations</strong></h2>
-<h3 id="section-4"><em>2020</em></h3>
+</div>
+</div>
+<div id="presentations" class="section level2">
+<h2><strong>Oral presentations</strong></h2>
+<div id="section-5" class="section level3">
+<h3><em>2020</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. 2017. Impact of fungal virulence proteins on in plants. Conferences Webs du Centre SÉVE (online).</p>
-<h3 id="section-5"><em>2017</em></h3>
+</div>
+<div id="section-6" class="section level3">
+<h3><em>2017</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. 2017. Transcriptomic and metabolomic analysis of the alteration of physiological processes in a collection of transgenic plants expressing fungal effectors. Centre SÉVE, Orford, Canada</p>
-<h3 id="section-6"><em>2014</em></h3>
+</div>
+<div id="section-7" class="section level3">
+<h3><em>2014</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2014. Analysis of the endophytic interaction of beneficial microorganisms and the Yerba-mate. III Research Initiation Meeting - Unila - Research in the XXI century: challenges and possibilities, Foz do Iguaçu, Brazil.</p>
-<h3 id="section-7"><em>2013</em></h3>
+</div>
+<div id="section-8" class="section level3">
+<h3><em>2013</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluación de la respuesta de la yerba mate a la inoculación con microorganismos potencialmente benéficos. II Congreso Paraguayo de Recursos Naturales y Medio Ambiente, Asunción, Paraguay.</p>
 <p><strong>dos Santos, K.C.G.</strong>; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluation of the response of Yerba-Mate to the inoculation with potentially beneficial microorganisms. II Research Initiation Meeting - Unila, Foz do Iguaçu, Brazil.</p>
-<h2 id="posters"><strong>Poster presentations</strong></h2>
-<h3 id="section-8"><em>2020</em></h3>
+</div>
+</div>
+<div id="posters" class="section level2">
+<h2><strong>Poster presentations</strong></h2>
+<div id="section-9" class="section level3">
+<h3><em>2020</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. 2020. Étude des plantes exprimant des protéines de virulence de la rouille du peuplier. Contest of scientific Posters - UQTR, Trois-Rivières, Canada.</p>
-<h3 id="section-9"><em>2019</em></h3>
+</div>
+<div id="section-10" class="section level3">
+<h3><em>2019</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. 2019. Transcriptomics and metabolomics of Arabidopsis expressing effectors from the poplar rust. Réunion conjointe Centre SÉVE-SPPQ, Bromont, Canada.</p>
 <p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. 2019. Effectors from poplar rust modulate Arabidopsis transcriptome. IS-MPMI 2019, Glasgow, United Kingdom.</p>
 <p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. 2019. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. Plant Canada 2019, Guelph, Canada.</p>
 <p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. 2019. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. Plant Canada 2019, Guelph, Canada.</p>
 <p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. 2019. Facteurs de virulence fongique modulent le transcriptome d’Arabidopsis. Contest of scientific Posters - UQTR, Trois-Rivières, Canada.</p>
-<h3 id="section-10"><em>2018</em></h3>
+</div>
+<div id="section-11" class="section level3">
+<h3><em>2018</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. 2018. Analysis of transcriptomic alterations in a collection of transgenic plants expressing fungal effectors. Plant Biology 2018, Montreal, Canada.</p>
 <p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. 2018. Analysis of transcriptomic alterations in a collection of transgenic plants expressing fungal effectors. Contest of scientific Posters - UQTR, Trois-Rivières, Canada.</p>
-<h3 id="section-11"><em>2017</em></h3>
+</div>
+<div id="section-12" class="section level3">
+<h3><em>2017</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>, Desgagné-Penix, I. &amp; Germain, H. 2017. Transcriptomic and metabolomic analysis of the alteration of physiological processes in a collection of transgenic plants expressing fungal effectors. Contest of scientific posters - UQTR, Trois-Rivières, Canada.</p>
-<h3 id="section-12"><em>2014</em></h3>
+</div>
+<div id="section-13" class="section level3">
+<h3><em>2014</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2014. Growth promotion of <em>Ilex paraguariensis</em> mediated by <em>Gluconacetobacter diazotrophicus</em> and its relation to nitrogen metabolism. VI South American Congress of Yerba Mate and II International Symposium of Yerba Mate and Health, Montevideo, Uruguay.</p>
 <p><strong>dos Santos, K.C.G.</strong>; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; C.A. Rojas. 2014. Analysis of the endophytic interaction of beneficial microorganisms and the Yerba-mate. III Research Initiation Meeting - Unila - Research in the XXI century: challenges and possibilities, Foz do Iguaçu, Brazil.</p>
-<h3 id="section-13"><em>2013</em></h3>
+</div>
+<div id="section-14" class="section level3">
+<h3><em>2013</em></h3>
 <p><strong>dos Santos, K.C.G.</strong>; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluation of the response of Yerba-Mate to the inoculation with potentially beneficial microorganisms. IV National and International Congress of Agrobiotechnology, Intellectual Property and Public Policies, Posadas, Argentina.</p>
 <p><strong>dos Santos, K.C.G.</strong>; Lopez, D.S.H. ; Perez, L.M.; Roberti, L.; Schmid, P.; Figueiredo, I.; Peres, C.K.; Rojas, C.A. 2013. Evaluation of the response of Yerba-Mate to the inoculation with potentially beneficial microorganisms. II Research Initiation Meeting - Unila, Foz do Iguaçu, Brazil.</p>
+</div>
+</div>
+</div>
 </div>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">
@@ -893,7 +908,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -911,7 +926,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
