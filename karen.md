@@ -161,9 +161,17 @@ Finally, I am secretary of the Centre SEVE's International Partnership Committee
 
 ## **Papers** {#papers}
 
+### *2021*
+
+Rahman, M.S, Madina, M.H.,Plourde, M.B., **dos Santos, K.C.G.**, Huang, X., Zhang, Y, Laliberté, J.-F., Germain, H. The fungal effector Mlp37347 alters plasmodesmata fluxes and enhances susceptibility to pathogen. _Microorganisms_ (2021), 9(6): 1232. DOI: [10.3390/microorganisms9061232](https://doi.org/10.3390/microorganisms9061232)
+
+
+**dos Santos, K.C.G.**, Pelletier, G., Séguin, A. Guillemette, F., Hawkes, J., Desgagné-Penix, I. & Germain, H. Unrelated fungal rust candidate effectors act on overlapping plant functions. _Microorganisms_ (2021), 9(5): 996. DOI: [10.3390/microorganisms9050996](https://doi.org/10.3390/microorganisms9050996).
+
+
 ### *2020*
 
-**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. BMC Genomics 21, 35 (2020) DOI: [10.1186/s12864-019-6426-2](https://doi.org/10.1186/s12864-019-6426-2)
+**dos Santos, K.C.G.**, Desgagné-Penix, I. & Germain, H. Custom selected reference genes outperform pre-defined reference genes in transcriptomic analysis. _BMC Genomics_ (2020), 21(35).  DOI: [10.1186/s12864-019-6426-2](https://doi.org/10.1186/s12864-019-6426-2)
 
 ### *2019*
 
